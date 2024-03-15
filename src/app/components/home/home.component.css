@@ -25,3 +25,22 @@
     height: 40px;
     background-color: black;
 }
+
+.me {
+    position: absolute;
+    top: 180px;
+    border-radius: 50%;
+    background-color: #1A1A1A;
+    width: 250PX;
+    height: 250PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.meImage {
+    margin-right: -20px;
+    margin-top: 55px;
+    object-fit: contain;
+}
