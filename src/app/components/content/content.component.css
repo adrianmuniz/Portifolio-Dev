@@ -1,0 +1,38 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: -40px;
+  color: white;
+}
+
+.role {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: -65px;
+  color: #C9C9C9;
+  font-size: 20px;
+}
+
+.full {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  background: linear-gradient(to right, #9C83FF, #FF9051);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

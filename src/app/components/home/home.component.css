@@ -19,11 +19,11 @@
 
 .nav-bar {
     position: absolute;
-    display: flex;
     top: 20px;
     width: 1168px;
     height: 40px;
     background-color: black;
+    flex-direction: column;
 }
 
 .me {
@@ -36,6 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     overflow: hidden;
 }
 
@@ -43,4 +44,15 @@
     margin-right: -20px;
     margin-top: 55px;
     object-fit: contain;
+    flex-direction: column;
+}
+
+.introducao {
+    width: 505px;
+    height: 115;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 480px;
 }
