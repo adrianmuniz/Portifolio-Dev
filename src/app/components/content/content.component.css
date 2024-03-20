@@ -9,7 +9,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 24px;
+  font-size: 30px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -22,9 +22,9 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
-  margin-top: -65px;
+  margin-top: -80px;
   color: #C9C9C9;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .full {
@@ -35,4 +35,18 @@
   background: linear-gradient(to right, #9C83FF, #FF9051);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.presentation, text-presentation {
+  width: 700px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: medium;
+  font-size: 16px;
+  text-align: center;
+  color: #E1E1E1;
 }
