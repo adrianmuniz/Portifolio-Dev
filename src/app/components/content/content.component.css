@@ -40,6 +40,7 @@
 .presentation, text-presentation {
   width: 700px;
   height: 40px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,4 +50,20 @@
   font-size: 16px;
   text-align: center;
   color: #E1E1E1;
+  flex-direction: column;
+}
+
+.contatoBtn {
+  border-radius: 75px;
+  width: 186px;
+  height: 55px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border-color: #E1E1E1;
+  border-width: 1px;
+  right: 93px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }

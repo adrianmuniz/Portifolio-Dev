@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class ContentComponent {
 
+  onClick() {
+    window.open('https://www.linkedin.com/in/cainaadriandesenvolvedor/', '_blank')
+  }
 }
