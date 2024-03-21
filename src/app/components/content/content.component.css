@@ -79,10 +79,9 @@
   width: 706px;
   height: 238px;
   margin-top: 150px;
-  /* background-color: #9C83FF; */
 }
 
-.title {
+.aboutTitle {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -95,7 +94,7 @@
   color: white;
 }
 
-.paragraph {
+.aboutText {
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -105,4 +104,103 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+}
+
+.experience {
+  width: 703px;
+  height: 321px;
+  /* background-color: #9C83FF; */
+  margin-top: 100px;
+}
+
+.expTitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.job {
+  width: 703px;
+  height: 21px;
+  margin-top: 30px;
+}
+
+.company {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.function {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  color: white;
+}
+
+.date {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: row;
+  margin-top: -13px;
+  color: #E1E1E1;
+}
+
+.description {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+  color: #E1E1E1;
+}
+
+.expButtons {
+  width: 700px;
+  height: 25px;
+  display: flex;
+  /* background-color: #9C83FF; */
+}
+
+.skills {
+  background: linear-gradient(to right, #9C83FF, #FF9051);
+  width: 72px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.skillAfter {
+  width: 64px;
+  height: 17px;
+  padding: 3px;
+  margin-top: 1px;
+  margin-left: 1px;
+  background: #000;
+  border-radius: 10px;
+  color: #E1E1E1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 11px;
 }
