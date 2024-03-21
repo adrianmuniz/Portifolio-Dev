@@ -67,3 +67,35 @@
   font-weight: 300;
   font-style: normal;
 }
+
+.aboutMe {
+  width: 706px;
+  height: 238px;
+  margin-top: 150px;
+  /* background-color: #9C83FF; */
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #E1E1E1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
