@@ -9,7 +9,7 @@ app.use(express.static('./dist/meuPortifolio'));
 
 app.get('/*', (req, res) =>
   res.sendFile('index.html', {
-    root: 'dist/meuPortifolio/'
+    root: 'dist/meuPortifolio/browser/'
   }),
 );
 
