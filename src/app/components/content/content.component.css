@@ -109,7 +109,6 @@
 .experience {
   width: 703px;
   height: 321px;
-  /* background-color: #9C83FF; */
   margin-top: 100px;
 }
 
@@ -172,7 +171,6 @@
   width: 700px;
   height: 25px;
   display: flex;
-  /* background-color: #9C83FF; */
 }
 
 .skills {
@@ -208,7 +206,6 @@
 .projects {
   width: 700px;
   height: 286px;
-  /* background-color: #9C83FF; */
   margin-top: 100px;
 }
 
@@ -233,7 +230,6 @@
 
 .column {
   position: relative;
-  /* background-color: #ddd; */
   padding: 20px;
   height: 50px;
 }
@@ -249,7 +245,6 @@
   border-width: 1px;
   cursor: pointer;
   color: white;
-  /* background-color: transparent; */
   background-color: transparent;
   font-weight: 500;
 }
@@ -263,7 +258,6 @@
 .text-container {
   width: 200px;
   height: calc(100% - 10px);
-  /* background-color: #FF9051; */
   position: absolute;
   left: 120px;
   top: 5px;
