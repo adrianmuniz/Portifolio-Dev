@@ -9,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './nav-bar.component.css'
 })
 export class NavBarComponent {
-
+  onClick() {
+    window.open('https://www.linkedin.com/in/cainaadriandesenvolvedor/', '_blank')
+  }
 }
