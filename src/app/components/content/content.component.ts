@@ -1,10 +1,12 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
 import { ScrollService } from '../../services/scroll.service';
+import { NavBarComponent } from '../nav-bar/nav-bar.component';
+import { HomeComponent } from '../home/home.component';
 
 @Component({
   selector: 'app-content',
   standalone: true,
-  imports: [],
+  imports: [NavBarComponent, HomeComponent],
   templateUrl: './content.component.html',
   styleUrl: './content.component.css'
 })
