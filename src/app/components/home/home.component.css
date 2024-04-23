@@ -2,6 +2,9 @@ body {
     background-color: black;
     margin: -8px;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -10,18 +13,14 @@ body {
     max-width: 1265px;
     width: 100%;
     height: 250vh;
-    /* margin: 0;
-    padding: 0;
-    border: 0; */
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     position: relative;
 }
 
 .background-image {
-    /* display: block; */
     margin-top: 30px;
     margin-bottom: auto;
     object-fit: cover;
@@ -33,9 +32,6 @@ body {
     width: 100%;
     position: absolute; 
     top: 20px;
-    /* width: 1168px;
-    height: 40px; */
-    /* flex-direction: column; */
 }
 
 .me {
@@ -73,7 +69,7 @@ body {
     .container {
         max-width: 410px;
         width: 100%;
-        height: 260vh;
+        height: 270vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
