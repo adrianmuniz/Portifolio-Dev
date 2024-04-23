@@ -274,3 +274,54 @@
   color: white;
 }
 
+@media screen and (max-width: 600px) {
+    .name {
+      font-size: 25px;
+    }
+
+    .role {
+      font-size: 20px;
+    }
+
+    .presentation {
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .aboutMe {
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .experience {
+      max-width: 400px;
+      width: 100%;
+      top: 20px;
+      
+    }
+
+    .expTitle {
+      margin-top: 60px;
+    }
+
+    .expButtons {
+      max-width: 400px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+    }
+    
+    .projects {
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr; 
+    }
+}

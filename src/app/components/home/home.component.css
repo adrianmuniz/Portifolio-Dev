@@ -7,30 +7,35 @@ body {
 .container {
     background-color: black;
     overflow: hidden;
+    max-width: 1265px;
     width: 100%;
     height: 250vh;
-    margin: 0;
+    /* margin: 0;
     padding: 0;
-    border: 0;
+    border: 0; */
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     position: relative;
 }
 
 .background-image {
-    display: block;
+    /* display: block; */
     margin-top: 30px;
     margin-bottom: auto;
     object-fit: cover;
 }
 
 .nav-bar {
-    position: absolute;
+    display: flex;
+    max-width: 1168px;
+    width: 100%;
+    position: absolute; 
     top: 20px;
-    width: 1168px;
-    height: 40px;
-    background-color: black;
-    flex-direction: column;
+    /* width: 1168px;
+    height: 40px; */
+    /* flex-direction: column; */
 }
 
 .me {
@@ -38,8 +43,8 @@ body {
     top: 180px;
     border-radius: 50%;
     background-color: #1A1A1A;
-    width: 250PX;
-    height: 250PX;
+    width: 250px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,4 +67,28 @@ body {
     align-items: center;
     flex-direction: column;
     top: 480px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 410px;
+        width: 100%;
+        height: 260vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-bar {
+        width: 100%;
+    }
+
+    .content {
+        max-width: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 }
