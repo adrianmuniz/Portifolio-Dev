@@ -160,6 +160,7 @@
 }
 
 .description {
+  text-align: justify;
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -175,7 +176,7 @@
 
 .skills {
   background: linear-gradient(to right, #9C83FF, #FF9051);
-  width: 72px;
+  width: 78px;
   height: 25px;
   border-radius: 10px;
   border: none;
@@ -186,7 +187,7 @@
 }
 
 .skillAfter {
-  width: 64px;
+  width: 69px;
   height: 17px;
   padding: 3px;
   margin-top: 1px;
