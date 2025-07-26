@@ -20,8 +20,8 @@
     width: 90px;
     height: 35px;
     margin-top: 3px;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     border-color: #E1E1E1;
     border-width: 1px;
     position: absolute;
@@ -31,3 +31,15 @@
     font-style: normal;
     cursor: pointer;
 }
+
+.sobreMimBtn:hover {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+} 
+
+.contatoBtn:hover {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+} 
